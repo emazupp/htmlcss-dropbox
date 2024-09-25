@@ -145,6 +145,7 @@ a {
   column-gap: 53px;
   justify-content: center;
   flex-wrap: wrap;
+  row-gap: var(--padding-general);
 }
 
 .cards-container > .plan-card {
@@ -265,6 +266,7 @@ a {
 .info-partners {
   width: 40%;
   padding: var(--padding-general);
+  padding-right: 80px;
 }
 
 .info-partners > h3 {
@@ -277,8 +279,11 @@ a {
 }
 
 .btn-transparent {
-  padding: 10px 10px;
+  padding: 10px 15px;
   background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 1.1em;
 }
 
 /* main operation section */
@@ -293,4 +298,18 @@ a {
 
 .small-card-header > img {
   width: 100%;
+}
+
+.small-card-body > h3 {
+  font-size: 1.5em;
+  padding-bottom: 25px;
+}
+
+.small-card-body > p {
+  font-size: 1.1em;
+}
+
+.operation-title > h2 {
+  font-size: 2.5em;
+  padding-bottom: var(--padding-general);
 }
