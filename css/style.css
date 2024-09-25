@@ -12,3 +12,29 @@
   width: 1400px;
   margin: 0 auto;
 }
+
+ul > li {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.btn {
+}
+
+/* HEADER */
+
+.header {
+  height: 900px;
+  /* debug */
+  background-color: red;
+  border: 1px solid black;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
