@@ -16,6 +16,7 @@ body {
   --primary-color: #202020;
   --secondary-color: rgb(0, 97, 255);
   --line-color: #ccc;
+  --padding-general: 50px;
 }
 
 .container {
@@ -124,13 +125,13 @@ a {
 .main-plans {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: var(--padding-general);
 }
 
 .main-plans > .plans-title > h2 {
   font-size: 2.5em;
   color: var(--primary-color);
-  padding-bottom: 50px;
+  padding-bottom: var(--padding-general);
 }
 
 .main-plans > .plans-title > .checkbox {
@@ -156,7 +157,7 @@ a {
 
 .plan-card > .plan-card-header {
   text-align: center;
-  line-height: 30px;
+  line-height: 40px;
   border-bottom: 1px solid var(--line-color);
 }
 
@@ -165,7 +166,7 @@ a {
 }
 
 .plan-card > .plan-card-footer {
-  padding: 50px 30px 50px;
+  padding: 50px 30px var(--padding-general);
 }
 
 .plan-card-body > .card-info {
@@ -188,7 +189,7 @@ a {
 
 .card-benefits-list {
   padding-top: 35px;
-  padding-bottom: 50px;
+  padding-bottom: var(--padding-general);
 }
 
 .card-benefits-list > li {
@@ -218,6 +219,10 @@ a {
 .large-card {
   width: 100%;
   height: 300px;
-  padding-top: 50px;
   border: 1px solid var(--line-color);
+}
+
+.large-card > .large-card-header {
+  line-height: 40px;
+  border-bottom: 1px solid var(--line-color);
 }
