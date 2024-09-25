@@ -313,3 +313,18 @@ a {
   font-size: 2.5em;
   padding-bottom: var(--padding-general);
 }
+
+/* dropbox team disclaimer */
+
+.dropbox-team-disclaimer {
+  padding-top: 150px;
+  width: 60%;
+}
+
+.dropbox-team-disclaimer > h2 {
+  font-size: 2.5em;
+  padding-bottom: var(--padding-general);
+}
+
+.dropbox-team-disclaimer > a {
+}
