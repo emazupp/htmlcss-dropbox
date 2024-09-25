@@ -109,3 +109,37 @@ a {
 .hero-downarrow {
   padding-top: 20px;
 }
+
+/* MAIN */
+
+.main-container {
+  padding: 130px 50px;
+}
+
+/* plan cards */
+
+.card-container {
+  display: flex;
+  flex: 1 0 27%;
+}
+
+.card-container > .plan-card {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+> .plan-card-header {
+  height: 30px;
+  /* debug */
+  background-color: aqua;
+}
+
+.plan-card > .plan-card-body {
+  height: 400px;
+}
+
+.plan-card > .plan-card-footer {
+  height: 300px;
+}
