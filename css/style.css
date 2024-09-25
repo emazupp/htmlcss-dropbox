@@ -7,6 +7,10 @@
 
 /* UTILS */
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 :root {
   --primary-color: #202020;
   --secondary-color: #0061ff;
@@ -14,7 +18,7 @@
 
 .container {
   max-width: 100%;
-  width: 1300px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -37,7 +41,7 @@ a {
 /* HEADER */
 
 .header {
-  height: 600px;
+  height: 700px;
   /* debug */
   background-color: #ccc;
   border: 1px solid black;
@@ -51,7 +55,7 @@ a {
   height: 70px;
   align-items: center;
   background-color: #fff;
-  padding: 0 20px;
+  padding: 0 100px;
 }
 
 .nav-items {
@@ -75,19 +79,23 @@ a {
   padding-top: 40px;
   row-gap: 40px;
   position: relative;
-  top: 50px;
+  top: 60px;
 }
 
 .hero-container > .hero-content {
   display: flex;
 }
 
+.hero-container > .hero-content > .hero-image {
+  width: 70%;
+}
+
 .hero-container > .hero-content > .hero-image > img {
-  width: 60%;
+  max-width: 100%;
 }
 
 .hero-container > .hero-content > .hero-content-descr {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   row-gap: 40px;
@@ -95,8 +103,9 @@ a {
 
 .hero-title > h1 {
   font-size: 3.5em;
+  font-weight: 900;
 }
 
 .hero-downarrow {
-  padding-top: 30px;
+  padding-top: 20px;
 }
