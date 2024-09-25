@@ -37,4 +37,19 @@ button {
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-right-items,
+.nav-left-items {
+  display: flex;
+  gap: 15px;
 }
