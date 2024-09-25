@@ -144,6 +144,7 @@ a {
   display: flex;
   column-gap: 53px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .cards-container > .plan-card {
@@ -284,4 +285,12 @@ a {
 
 .main-operations {
   padding-top: 150px;
+}
+
+.small-card {
+  flex: 0 0 30%;
+}
+
+.small-card-header > img {
+  width: 100%;
 }
