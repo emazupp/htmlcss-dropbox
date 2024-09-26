@@ -395,8 +395,7 @@ a {
 }
 
 .company img:not(.middle-section > div > img) {
-  width: 100%;
-  padding: 80px;
+  max-width: 40%;
 }
 
 .middle-section-line {
