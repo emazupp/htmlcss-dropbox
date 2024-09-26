@@ -153,8 +153,9 @@ a {
   padding-bottom: var(--padding-general);
 }
 
-.main-plans > .plans-title > .checkbox {
-  /* CHECKBOX BORDER RADIUS? */
+.plan-type-monthly,
+.plan-type-yearly {
+  display: inline-block;
 }
 
 /* plan cards */
